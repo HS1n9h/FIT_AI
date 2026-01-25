@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "FitAI",
+    "slug": "fitai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fitai.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "FitAI uses the camera to provide real-time form feedback during workouts.",
+        "NSPhotoLibraryUsageDescription": "FitAI needs access to your photo library to save workout progress photos.",
+        "NSHealthShareUsageDescription": "FitAI syncs your workout data to Apple Health for comprehensive fitness tracking.",
+        "NSHealthUpdateUsageDescription": "FitAI updates Apple Health with calories burned and workout sessions."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.fitai.app",
+      "permissions": [
+        "CAMERA",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE"
+      ],
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "FitAI uses the camera to provide real-time form feedback during workouts."
+        }
+      ],
+      "react-native-vision-camera"
+    ],
+    "scheme": "fitai",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "your-project-id"
+      }
+    }
+  }
+}
