@@ -1,4 +1,4 @@
-# FitAI - AI-Powered Fitness App MVP
+# FIT_AI - AI-Powered Fitness App MVP
 
 A cross-platform fitness app with AI workout generation and real-time pose detection for form feedback.
 
@@ -193,6 +193,18 @@ eas build --profile production --platform ios
 - [Supabase Docs](https://supabase.com/docs)
 - [OpenAI API](https://platform.openai.com/docs)
 
+## 📦 Repository
+
+This project is configured to use the **FIT_AI** GitHub repository. The remote is set to:
+
+- `origin` → `https://github.com/HS1n9h/FIT_AI.git`
+
+If you haven’t created the repo yet:
+
+1. Create a new repository on GitHub named **FIT_AI**: [Create FIT_AI repo](https://github.com/new?name=FIT_AI)
+2. Do **not** initialize it with a README (this project already has one).
+3. Then push your code: `git push -u origin master`
+
 ## 📄 License
 
 MIT License - see LICENSE file for details
@@ -203,4 +215,4 @@ This is an MVP project. Contributions welcome after initial launch!
 
 ---
 
-**Built with ❤️ following the FitAI MVP Battle-Tested Plan v2.0**
+**Built with ❤️ following the FIT_AI MVP Battle-Tested Plan v2.0**

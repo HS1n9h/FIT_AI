@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "FitAI",
+    "name": "FIT_AI",
     "slug": "fitai",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -16,10 +16,10 @@
       "supportsTablet": true,
       "bundleIdentifier": "com.fitai.app",
       "infoPlist": {
-        "NSCameraUsageDescription": "FitAI uses the camera to provide real-time form feedback during workouts.",
-        "NSPhotoLibraryUsageDescription": "FitAI needs access to your photo library to save workout progress photos.",
-        "NSHealthShareUsageDescription": "FitAI syncs your workout data to Apple Health for comprehensive fitness tracking.",
-        "NSHealthUpdateUsageDescription": "FitAI updates Apple Health with calories burned and workout sessions."
+        "NSCameraUsageDescription": "FIT_AI uses the camera to provide real-time form feedback during workouts.",
+        "NSPhotoLibraryUsageDescription": "FIT_AI needs access to your photo library to save workout progress photos.",
+        "NSHealthShareUsageDescription": "FIT_AI syncs your workout data to Apple Health for comprehensive fitness tracking.",
+        "NSHealthUpdateUsageDescription": "FIT_AI updates Apple Health with calories burned and workout sessions."
       }
     },
     "android": {
@@ -45,7 +45,7 @@
       [
         "expo-camera",
         {
-          "cameraPermission": "FitAI uses the camera to provide real-time form feedback during workouts."
+          "cameraPermission": "FIT_AI uses the camera to provide real-time form feedback during workouts."
         }
       ],
       "react-native-vision-camera"
